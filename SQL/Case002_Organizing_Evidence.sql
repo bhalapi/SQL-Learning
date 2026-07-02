@@ -1,0 +1,16 @@
+-- ========================================
+-- Case 002 - Organizing Evidence
+--
+-- Scenario:
+-- The lieutenant wants to review crash
+-- reports in chronological order
+--
+-- Concepts Learned:
+-- ORDER BY
+-- ASC
+-- DESC
+-- ========================================
+SELECT location, date
+FROM crashes
+WHERE severity = 'Property Damage'
+ORDER BY date DESC;
