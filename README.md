@@ -1,19 +1,18 @@
-# SQL Learning
+# SQL Learning Portfolio
 
-This repository documents my journey learning SQL from the ground up.
+This repository documents my journey learning SQL from the ground up through realistic law enforcement and fraud investigation scenarios.
 
-## Goals
+## Technologies
+- SQLite
+- SQL
+- Python (coming soon)
+- Git & GitHub
 
-- Learn SQL fundamentals
-- Combine SQL with Python
-- Build investigation-focused database projects
-- Create a portfolio for corporate investigation, fraud analysis, and cybersecurity roles
+## Project Structure
+- Database/ - SQLite databases
+- SQL/ - Investigation case files
+- Python/ - Automation scripts
 
-## Projects
-
-This repository will eventually include:
-
-- Traffic Crash Investigation Database
-- Fraud Detection Database
-- Vehicle Link Analysis
-- Python + SQLite automation
+## Cases Completed
+- Case 001 - Retrieve Crash Records
+- Case 002 - Organize Evidence
