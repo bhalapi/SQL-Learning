@@ -11,17 +11,17 @@
 -- - DESC
 -- ==========================================
 
--- Exercise 1
+-- ORDER BY date; will display the results oldest → newest
 SELECT *
 FROM crashes
 ORDER BY date;
 
--- Exercise 2
+-- OR you can have it displayed in a descending order like this:
 SELECT *
 FROM crashes
 ORDER BY date DESC;
 
--- Challenge
+-- Challenge: Show me all the non-injury crashes from newest to oldest. Only display the dates and locations of crashes.
 SELECT location, date
 FROM crashes
 WHERE severity = 'Property Damage'
