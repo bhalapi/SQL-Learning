@@ -12,7 +12,7 @@ cursor = connection.cursor()
 # Create the crashes table in the SQLite database by executing SQL commands.
 # The SQL statements will be placed between the triple quotation marks below.
 cursor.execute("""
-CREATE TABLE crashes (
+CREATE TABLE IF NOT EXISTS crashes (
     crash_id INTEGER PRIMARY KEY,
 
     date TEXT,
